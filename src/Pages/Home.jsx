@@ -1,5 +1,11 @@
+import { GlobalButton } from '../Component/GlobalButton';
 import Footer from '../Layout/Footer';
 
 export default function Home() {
-	return <Footer />;
+	return (
+		<>
+			<GlobalButton variant='contained'>ini button</GlobalButton>
+			<Footer />
+		</>
+	);
 }

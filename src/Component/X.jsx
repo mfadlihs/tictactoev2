@@ -1,3 +1,1 @@
-export default function X(){
-  
-}
+export default function X() {}
